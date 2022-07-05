@@ -1,0 +1,37 @@
+<Container fluid>
+    <Row>
+      <Col md={6}>
+        <Row>
+          <Col><img src={logo}></img> </Col>
+          <Col><h5>ბენეფიციარის პორტალი</h5></Col>
+        </Row>
+      </Col>
+
+
+      <Col md={6}>
+        <Row>
+          <Col md={8}>
+            <Row className="navs">
+              <Col md={6}><a href="">-ჩვენ შესახებ</a></Col>
+              <Col md={3}><a href="">-ერვისები</a></Col>
+              <Col md={3}><a href="">-კონტაქტი</a></Col>
+            </Row>
+          </Col>
+          <Col md={4}>
+            <Row>
+              <Col>
+                <Button className="notifications">
+                  <FontAwesomeIcon icon={faBell} className="notificationIcon" />
+                </Button>
+              </Col>
+              <Col>
+                <Button className="profile">
+                  <FontAwesomeIcon icon={faUser} className="profileIcon" />
+                </Button>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </Container>

@@ -1,0 +1,332 @@
+<div className="header">
+  <div className="title">
+    <Container>
+      <Row>
+        <Col lg={3}>
+          <Row className='mt-lg-2'>
+            <Col lg={12}><img src={logo}></img> </Col>
+          </Row>
+        </Col>
+        <Col  lg={6}>
+          <Row className='mt-lg-4'>
+            <Col lg={12}><h5>ბენეფიციარის პორტალი</h5></Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+  </div>
+  <div className="navs">
+    <Container>
+      <Row>
+        <Col lg={8} className="d-none d-lg-block">
+          <Row className='mt-lg-4'>
+            <Col> <a href="">-ჩვენ შესახებ</a></Col>
+            <Col> <a href="">-ერვისები</a></Col>
+            <Col> <a href="">-კონტაქტი</a></Col>
+          </Row>
+        </Col>
+        <Col lg={4} md={12}>
+          <Row className='mt-lg-3'>
+            <Col md={4}
+            ><Button className="notifications">
+                <FontAwesomeIcon icon={faBell} className="notificationIcon" /></Button>
+            </Col>
+            <Col md={4}
+            ><Button className="profile">
+                <FontAwesomeIcon icon={faUser} className="profileIcon" /></Button>
+            </Col>
+            <Col md={4} className="d-block d-lg-none"
+            ><Button className="notifications">
+                <FontAwesomeIcon icon={faBell} className="notificationIcon" /></Button>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    {/* <a href="">-ჩვენ შესახებ</a>
+      <a href="">-ერვისები</a>
+      <a href="">-კონტაქტი</a>
+    </div>
+    <div className="nav-buttons">
+      <Button className="notifications"><FontAwesomeIcon icon={faBell} className="notificationIcon" /></Button>
+      <Button className="profile"><FontAwesomeIcon icon={faUser} className="profileIcon" /></Button>
+    </div> */}
+  </div>
+</div>
+<div className="slider">
+  <Carousel interval={null} nextLabel={null} nextIcon={null}>
+    <Carousel.Item>
+      <div className="first-slide">
+        <div className="personal-profile">
+          <div className="personal-profile-container">
+            <h4>შენი პირადი პროფილი..</h4>
+            <p>ეწვიეთ პირად პროფილს ან გაიარეთ რეგისტრაცია.
+              <br></br>
+              მიიღეთ სრული ინფორმაცია და თქვენთვის სასურველი
+              <br></br>
+              სერვისები..
+            </p>
+            <div className="login-register">
+              <Button>შესვლა</Button>
+              <Button>რეგისტრაცია</Button>
+            </div>
+          </div>
+        </div>
+        <div className="slider-img">
+          <img src={foto}></img>
+        </div>
+      </div>
+      <Carousel.Caption>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div className="first-slide">
+        <div className="personal-profile">
+          <div className="personal-profile-container">
+            <h4>შენი პირადი პროფილი..</h4>
+            <p>ეწვიეთ პირად პროფილს ან გაიარეთ რეგისტრაცია.
+              <br></br>
+              მიიღეთ სრული ინფორმაცია და თქვენთვის სასურველი
+              <br></br>
+              სერვისები..
+            </p>
+            <div className="login-register">
+              <Button>შესვლა</Button>
+              <Button>რეგისტრაცია</Button>
+            </div>
+          </div>
+        </div>
+        <div className="slider-img">
+          <img src={foto}></img>
+        </div>
+      </div>
+      <Carousel.Caption>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <div className="first-slide">
+        <div className="personal-profile">
+          <div className="personal-profile-container">
+            <h4>შენი პირადი პროფილი..</h4>
+            <p>ეწვიეთ პირად პროფილს ან გაიარეთ რეგისტრაცია.
+              <br></br>
+              მიიღეთ სრული ინფორმაცია და თქვენთვის სასურველი
+              <br></br>
+              სერვისები..
+            </p>
+            <div className="login-register">
+              <Button>შესვლა</Button>
+              <Button>რეგისტრაცია</Button>
+            </div>
+          </div>
+        </div>
+        <div className="slider-img">
+          <img src={foto}></img>
+        </div>
+      </div>
+      <Carousel.Caption>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
+</div>
+
+{/* <img
+    style={{ width: '400px' }}
+    className="d-block"
+    src={foto}
+    alt="Second slide"
+  /> */}
+
+
+<div className="collection">
+  <Container>
+    <Row lg={4} md={3} sm={2} xs={2} className="md-col-3">
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faHandsHolding} className='c_icon' /></div>
+          <div>
+            სოციალური
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faHeartPulse} className='c_icon' /></div>
+          <div>
+            ჯანდაცვის
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faFlask} className='c_icon' /></div>
+          <div>
+            სოციალური
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faNetworkWired} className='c_icon' /></div>
+          <div>
+            ჯანდაცვის
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faUsersLine} className='c_icon' /></div>
+          <div>
+            სოციალური
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faHandHoldingHeart} className='c_icon' /></div>
+          <div>
+            ჯანდაცვის
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faBriefcaseMedical} className='c_icon' /></div>
+          <div>
+            სოციალური
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+      <Col className="col">
+        <a href="#" className='block'>
+          <div><FontAwesomeIcon icon={faHeartPulse} className='c_icon' /></div>
+          <div>
+            ჯანდაცვის
+            <br></br>
+            სერვისები და
+            <br></br>
+            შენი პროფილი
+          </div>
+          <a href="#" className='showmore'>
+            ვრცლად..
+          </a>
+        </a>
+      </Col>
+    </Row>
+  </Container>
+</div>
+
+<footer className="footer">
+  <Container fluid>
+    <Row>
+      <Col xl={4} lg={4} className="d-none d-lg-block mt-lg-4 ml-lg-4 mt-md-4 ml-md-4">
+        <img src={logowhite} className="logo-img"></img>
+        <h5 className="footerh4">ბენეფიციარის პორტალი</h5>
+      </Col>
+      <Col xl={8} lg={8} md={12} sm={12} fluid>
+        <div className="table">
+          <div className="mt-md-3 mt-sm-4">
+            <ul>
+              <li className='f_child'>ჩვენ შესახებ</li>
+            </ul>
+            <ul>
+              <li><a href="#">- ინფორმაცია</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">- სამსახური</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">- პროფილი</a></li>
+            </ul>
+          </div>
+          <div className='mt-md-3  mt-sm-4'>
+            <ul>
+              <li className='f_child'>სერვისები</li>
+            </ul>
+            <ul>
+              <li><a href="#">- ინფორმაცია</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">- სამსახური</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">- პროფილი</a></li>
+            </ul>
+          </div>
+          <div className='mt-md-3  mt-sm-4'>
+            <ul>
+              <li className='f_child'>კონტაქტი</li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">
+                  <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+                  &nbsp;
+                  (+995 32) 2 333 333
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="#">
+                  <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                  &nbsp;
+                  moh@gov.ge
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</footer>
